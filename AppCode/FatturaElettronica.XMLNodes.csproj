@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.7.1.1</Version>
+    <Authors>Andrea (EtabetaWeb) Cervi</Authors>
+    <Company>Andrea (EtabetaWeb) Cervi</Company>
+    <Product>Fattura Elettronica XML Nodes</Product>
+    <Description>Libreria per la gestione dei nodi previsti nel formato XML (eXtensible Markup Language) della Fattura Elettronica basato sulle specifiche tecniche dell’Agenzia delle Entrate.</Description>
+    <Copyright>Copyright © 2022 Andrea (EtabetaWeb) Cervi</Copyright>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/EtabetaWeb/FatturaElettronica.XMLNodes.1.7.1</PackageProjectUrl>
+    <PackageIcon>etabetaweb.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/EtabetaWeb/FatturaElettronica.XMLNodes.1.7.1.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>fattura-elettronica;fatturazione-elettronica</PackageTags>
+    <AssemblyVersion>1.7.1</AssemblyVersion>
+    <FileVersion>1.7.1</FileVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile></PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AppIcon\**" />
+    <EmbeddedResource Remove="AppIcon\**" />
+    <None Remove="AppIcon\**" />
+    <None Include="..\AppIcon\etabetaweb.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

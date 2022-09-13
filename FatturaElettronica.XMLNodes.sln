@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatturaElettronica.XMLNodes", "AppCode\FatturaElettronica.XMLNodes.csproj", "{89476287-8C89-4F38-A5CA-D3CBC9D9F891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentazione", "Documentazione", "{CFD1A840-FBFA-482B-88CD-56C6C25AEF61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specifiche Tecniche", "Specifiche Tecniche", "{4E84F9F6-7388-4B4B-BAAC-D5567D4529FB}"
+	ProjectSection(SolutionItems) = preProject
+		Documentazione\Specifiche Tecniche\Allegato_A_Specifiche_tecniche_versione_1.7.1.pdf = Documentazione\Specifiche Tecniche\Allegato_A_Specifiche_tecniche_versione_1.7.1.pdf
+		Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_ordinaria_versione_1.7.1.xls = Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_ordinaria_versione_1.7.1.xls
+		Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_semplificata_versione_1.7.1.xls = Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_semplificata_versione_1.7.1.xls
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCShap", "CodiceEsempio\WinFormCShap\WinFormCShap.csproj", "{F5BDC3A6-C63E-4803-B253-D7E12E240A2C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinFormVB", "CodiceEsempio\WinFormVB\WinFormVB.vbproj", "{FCB7527C-A487-4ADA-8A2D-D38704CA0C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Immagini Condivise", "Immagini Condivise", "{034A8DB4-9557-40DF-8A0A-3E39EB2ED5DD}"
+	ProjectSection(SolutionItems) = preProject
+		Documentazione\Immagini Condivise\fattura-elettronica.jpg = Documentazione\Immagini Condivise\fattura-elettronica.jpg
+		Documentazione\Immagini Condivise\libro-fatturaelettronica-xmlnodes-1-7-1.jpg = Documentazione\Immagini Condivise\libro-fatturaelettronica-xmlnodes-1-7-1.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BDC3A6-C63E-4803-B253-D7E12E240A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BDC3A6-C63E-4803-B253-D7E12E240A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BDC3A6-C63E-4803-B253-D7E12E240A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BDC3A6-C63E-4803-B253-D7E12E240A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB7527C-A487-4ADA-8A2D-D38704CA0C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB7527C-A487-4ADA-8A2D-D38704CA0C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB7527C-A487-4ADA-8A2D-D38704CA0C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB7527C-A487-4ADA-8A2D-D38704CA0C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E84F9F6-7388-4B4B-BAAC-D5567D4529FB} = {CFD1A840-FBFA-482B-88CD-56C6C25AEF61}
+		{034A8DB4-9557-40DF-8A0A-3E39EB2ED5DD} = {CFD1A840-FBFA-482B-88CD-56C6C25AEF61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B2957A1-8076-4D3B-B2C4-0F5B488CB104}
+	EndGlobalSection
+EndGlobal
